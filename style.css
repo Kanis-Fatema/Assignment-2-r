@@ -1,0 +1,161 @@
+h3{
+    font-size: 25px;
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    padding-right: 80px;
+   
+}
+.padding{
+    padding-left: 500px;
+}
+nav ul li{
+    display: inline;
+    text-align: right;
+}
+h3:hover{
+    text-decoration: underline;
+    color: brown;
+}
+ .hover ul li a:hover{
+    text-decoration: underline;
+    color: rgb(235, 22, 22); 
+ }
+.text-align{
+    text-align: center;
+}
+.explore{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(0, 119, 255),rgb(120, 71, 255));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.text-align:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.margin{
+   margin: 50px;
+}
+.margin:hover{
+    border: 2px solid brown;
+}
+header{
+    background-color: #db84d45b;
+}
+.displayfix{
+    display: flex;
+    padding: 50px;
+}
+.color1{
+    color: orange;
+}
+.color2{
+    color: rgb(155, 144, 144);
+}
+.padding1{
+    padding-left: 40px;
+}
+.padding2{
+    padding-left: 50px;
+    padding-top: 150px;
+}
+.hoverset div:hover{
+    border:2px solid brown;
+}
+.padding1 div:hover{
+    border:2px solid brown;
+}
+.padding2:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.flex{
+    display: flex;
+    margin: 50px;
+}
+.flex div:hover{
+    border: 2px solid brown;
+}
+.shadow div{
+    background-color: rgba(141, 233, 202, 0.432);
+    box-shadow: 10px 10px 10px gray;
+    margin-right: 100px;
+}
+.fontsize{
+    font-size: 30px;
+    margin-top: -20px;
+}
+.top{
+    text-align: center;
+    position: relative;
+    top: -100px;    
+}
+.paddingset{
+    padding: 40px;
+}
+.paddingset:hover{
+    border: 2px solid brown;
+}
+.transition{
+    text-align:center;
+    margin-left: 60px;
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+    border: 2px solid blueviolet;
+    background-color: rgba(161, 112, 206, 0.521);
+    transition: width 2s, height 5s, transform 5s;
+}
+.hover-set:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.transition:hover{
+    width: 400px;
+    height: 400px;
+    transform: rotate(180deg);
+    border: 2px solid brown;
+}
+.marginpaddingset{
+    display: flex;
+    margin: 50px;
+}
+.alignset{
+    text-align: center;
+}
+.use-flex{
+    display: flex;
+    margin: 60px;
+}
+.use-flex div{
+    margin-left:50px;
+ }
+.alignset:hover{
+    text-decoration: underline;
+    color: brown;
+}
+.use-flex div:hover{
+    border: 2px solid brown;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(177, 140, 211);
+    margin: 50px 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer:hover{
+    text-decoration: underline;
+    color: brown;
+    border: 2px solid brown;
+}
