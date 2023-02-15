@@ -82,17 +82,19 @@ header{
     display: flex;
     margin: 50px;
 }
-.flex div:hover{
+.hover-done:hover{
     border: 2px solid brown;
 }
-.shadow div{
-    background-color: rgba(141, 233, 202, 0.432);
+.hover-done{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(200, 236, 224, 0.432);
     box-shadow: 10px 10px 10px gray;
     margin-right: 100px;
 }
 .fontsize{
     font-size: 30px;
-    margin-top: -20px;
+    margin-top: -30px;
 }
 .top{
     text-align: center;
@@ -114,6 +116,9 @@ header{
     border: 2px solid blueviolet;
     background-color: rgba(161, 112, 206, 0.521);
     transition: width 2s, height 5s, transform 5s;
+}
+.hover-set{
+    margin: 50px;
 }
 .hover-set:hover{
     text-decoration: underline;
