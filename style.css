@@ -163,4 +163,43 @@ footer:hover{
     text-decoration: underline;
     color: brown;
     border: 2px solid brown;
+ }
+@media screen and (max-width: 767px) {
+    .displayfix div{
+        flex: 100%;
+        flex-direction: column;
+    }
+}
+.borderset{
+    border-left: 3px solid brown;
+    padding-left: 10px;
+}
+.hovset:hover{
+    text-decoration: underline;
+    color: brown;
+}
+@media screen and (max-width: 767px) {
+    .responsive div ul li{
+        display: block;
+    }
+}
+@media screen and (max-width: 767px) {
+    .flex div{
+        display: block;    
+    }
+}
+@media screen and (max-width: 767px) {
+    .responsive2{
+        display: block;
+    }
+}
+@media screen and (max-width: 767px) {
+    .responsive3{
+        display: block;
+    }
+}
+@media screen and (max-width: 767px) {
+    .top{
+        display: block;
+    }
 }
